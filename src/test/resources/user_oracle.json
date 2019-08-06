@@ -1,0 +1,138 @@
+{
+	"type": "ORACLE2MYSQL",
+	"name": "user",
+	"datasource": {
+		"url": "jdbc:oracle:thin:@//10.183.2.41:1521/risk",
+		"userName": "query",
+        "password":"query_123",
+        "tableName":"EPAY_REFINANCE_RISK_USER_D"
+	},
+	"mapping": {
+		"name": "user",
+		"metaList": [{
+				"colNumber": 1,
+				"colName": "month_no",
+				"type": "varchar",
+				"length": 6,
+				"comment": "month_no"
+			},
+			{
+				"colNumber": 2,
+				"colName": "date_no",
+				"type": "varchar",
+                "length":8,
+				"comment": "date_no"
+			},
+			{
+				"colNumber": 3,
+				"colName": "acc_nbr",
+				"type": "varchar",
+				"length": 20,
+				"comment": "acc_nbr"
+			},
+			{
+				"colNumber": 4,
+				"colName": "register_date",
+				"type": "varchar",
+				"length": 40,
+				"comment": "register_date"
+			},
+            {
+				"colNumber": 5,
+				"colName": "prod_inst_id",
+				"type": "varchar",
+				"length": 40,
+				"comment": "prod_inst_id"
+			},
+            {
+				"colNumber": 6,
+				"colName": "create_org_id",
+				"type": "varchar",
+				"length": 40,
+				"comment": "create_org_id"
+			},
+            {
+				"colNumber": 7,
+				"colName": "create_org_name",
+				"type": "varchar",
+				"length": 400,
+				"comment": "create_org_name"
+			},
+            {
+				"colNumber": 8,
+				"colName": "create_staff",
+				"type": "varchar",
+				"length": 40,
+				"comment": "create_staff"
+			},
+            {
+				"colNumber": 9,
+				"colName": "create_staff_name",
+				"type": "varchar",
+				"length": 400,
+				"comment": "create_staff_name"
+			},
+            {
+				"colNumber": 10,
+				"colName": "accept_date",
+				"type": "varchar",
+				"length": 40,
+				"comment": "accept_date"
+			},
+            {
+				"colNumber": 11,
+				"colName": "consume_num",
+				"type": "varchar",
+				"length": 40,
+				"comment": "consume_num"
+			},
+            {
+				"colNumber": 12,
+				"colName": "consume_charge",
+				"type": "varchar",
+				"length": 40,
+				"comment": "consume_charge"
+			},
+            {
+				"colNumber": 13,
+				"colName": "card_nums",
+				"type": "varchar",
+				"length": 40,
+				"comment": "card_nums"
+			},
+            {
+				"colNumber": 14,
+				"colName": "load_date",
+				"type": "varchar",
+				"length": 40,
+				"comment": "load_date"
+			},
+            {
+				"colNumber": 15,
+				"colName": "month_no_",
+				"type": "varchar",
+				"length": 6,
+				"comment": "month_no_"
+			},
+            {
+				"colNumber": 16,
+				"colName": "date_no_",
+				"type": "varchar",
+				"length": 8,
+				"comment": "date_no_"
+			},
+            {
+				"colNumber": 17,
+				"colName": "latn_id_",
+				"type": "varchar",
+				"length": 4,
+				"comment": "latn_id_"
+			}
+		]
+	},
+	"target": {
+		"url": "jdbc:mysql://127.0.0.1:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8",
+		"userName": "root",
+		"password": "scdxitxkx!@#"
+	}
+}

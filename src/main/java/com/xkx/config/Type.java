@@ -1,0 +1,7 @@
+package com.xkx.config;
+
+public enum Type {
+
+    TXT2MYSQL,TXT2ORACLE,MYSQL2TXT,MYSQL2ORACLE,ORACLE2TXT,ORACLE2MYSQL;
+
+}

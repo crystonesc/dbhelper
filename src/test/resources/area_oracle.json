@@ -1,0 +1,35 @@
+{
+	"type": "ORACLE2MYSQL",
+	"name": "area",
+	"datasource": {
+		"url": "jdbc:oracle:thin:@//10.183.2.41:1521/risk",
+		"userName": "query",
+        "password":"query_123",
+        "tableName":"M_AREA",
+        "size":6000,
+        "position":0
+	},
+	"mapping": {
+		"name": "area",
+		"metaList": [{
+				"colNumber": 1,
+				"colName": "area_id",
+				"type": "varchar",
+				"length": 5,
+				"comment": "month_no"
+			},
+			{
+				"colNumber": 2,
+				"colName": "area_name",
+				"type": "varchar",
+                "length":10,
+				"comment": "area_name"
+			}
+		]
+	},
+	"target": {
+		"url": "jdbc:mysql://127.0.0.1:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8",
+		"userName": "root",
+		"password": "scdxitxkx!@#"
+	}
+}

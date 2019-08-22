@@ -3,6 +3,7 @@ package com.xkx.core;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 import com.xkx.Exception.DbhelperException;
 import com.xkx.config.*;
 import com.xkx.util.FileUtil;
